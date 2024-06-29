@@ -14,7 +14,7 @@ const FooterContact = () => {
       if (emailRef.current && messageRef.current) {
         const email = emailRef.current.value;
         const message = messageRef.current.value;
-        const response = await fetch("https://backed-yip.vercel.app/contact", {
+        const response = await fetch("https://backend-yip.vercel.app/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

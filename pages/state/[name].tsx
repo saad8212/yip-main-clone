@@ -37,7 +37,7 @@ const State = ({ data }: any) => {
 export async function getStaticProps(context: any) {
   const { name } = context.params;
   const response = await fetch(
-    `https://backed-yip.vercel.app/address?zip_code=${name}`
+    `https://backend-yip.vercel.app/address?zip_code=${name}`
   );
   const provider = await response.json();
   if (provider.length < 1) {
@@ -56,7 +56,7 @@ export async function getStaticProps(context: any) {
 export async function getStaticPaths(context: any) {
   //     const {name} = context.params;
 
-  //   const response = await fetch(`https://backed-yip.vercel.app/address?zip_code=${name}`) ;
+  //   const response = await fetch(`https://backend-yip.vercel.app/address?zip_code=${name}`) ;
   //   const provider = await response.json();
 
   // Get the paths we want to pre-render based on blogs

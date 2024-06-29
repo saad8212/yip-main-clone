@@ -31,7 +31,7 @@ const InternetBanner = ({text, paragraph, size}:props) => {
     setIsLoading(true);
     try {
       const response = await fetch(
-        `https://backed-yip.vercel.app/address?zip_code=${search}`,
+        `https://backend-yip.vercel.app/address?zip_code=${search}`,
         {
           method: "GET",
           headers: {

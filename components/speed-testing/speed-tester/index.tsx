@@ -15,7 +15,7 @@ import Link from "next/link";
 const imagesURL = process.env.NEXT_PUBLIC_TEST_IMAGES
   ? JSON.parse(process.env.NEXT_PUBLIC_TEST_IMAGES)
   : [];
-// const imgUploadURL = `https://backed-yip.vercel.app/upload`;
+// const imgUploadURL = `https://backend-yip.vercel.app/upload`;
 
 // Types
 type t_ProgressBarReference = HTMLDivElement;

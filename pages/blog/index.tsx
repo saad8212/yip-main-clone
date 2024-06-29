@@ -79,7 +79,7 @@ const Blog = ({ data }: any) => {
 
 export async function getServerSideProps({ query }:any) {
   const { page = 1, search = "" } = query;
-  const apiUrl = `https://backed-yip.vercel.app/blog?limit=10&page=${page}&status=true&search=${search}`;
+  const apiUrl = `https://backend-yip.vercel.app/blog?limit=10&page=${page}&status=true&search=${search}`;
   const response = await fetch(apiUrl);
   const data = await response.json();
 
