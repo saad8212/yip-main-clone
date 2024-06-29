@@ -1,0 +1,681 @@
+.mainDiv {
+    /* font-family: "Maison Neue Medium", arial, helvetica, sans-serif; */
+  }
+  .header {
+    box-shadow: 0px 5px 2px #00000033;
+    position: relative;
+    z-index: 1;
+  }
+  .header_number{
+    position: absolute;
+    right: 3vw;
+    top: 3vh;
+      font-size: 24px;
+      margin-bottom: 20px !important;
+      text-align: center;
+      font-weight: 700;
+      cursor: pointer;
+
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    width: 300px;
+    height: 100px;
+  }
+  .left_content {
+    width: 355px;
+    /* top: 160px; */
+    position: relative;
+  }
+  .slider_container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 110px;
+  }
+  .left_content h2 {
+    font-size: 48px;
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    color: #0047bb;
+    letter-spacing: 0;
+    line-height: 58px;
+    text-align: left;
+    opacity: 1;
+    height: 122px;
+    margin: 30px 0 0 0;
+  }
+  .left_content p {
+    font-size: 22px;
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    color: #000;
+    letter-spacing: 0;
+    line-height: 34px;
+    text-align: left;
+    opacity: 1;
+    width: 235px;
+    margin-bottom: 10px;
+  }
+  .right_content {
+    /* top: -78px;
+    left: 0px; */
+    width: 616px;
+    height: 376px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.85;
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .right_content hr {
+    width: 2px;
+    height: 285px;
+    opacity: 1;
+    float: left;
+    position: relative;
+    /* top: 53px; */
+    left: 10px;
+    border: none;
+    background-color: #cbcbcb;
+    margin: 0;
+  }
+  .left_Oval {
+    width: 191px;
+    height: 134px;
+    position: absolute;
+    top: -90px;
+    left: 50px;
+    float: left;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left_Oval img {
+    width: 157px !important;
+    height: 100px !important;
+    position: relative !important;
+  }
+  .right_Oval img {
+    width: 157px !important;
+    height: 100px !important;
+    position: relative !important;
+  }
+  .right_Oval {
+    width: 191px;
+    height: 134px;
+    position: absolute;
+    top: -90px;
+    right: 50px;
+    float: left;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left_wrapper .bulletContent {
+    font-family: "Maison Neue Book", arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: 15px auto -5px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    width: 260px;
+  }
+  .bulletContent p {
+    margin: 0;
+  }
+  .left_wrapper h2 {
+    font-family: "Maison Neue Medium", arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-align: Center;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: 15px auto -8px;
+    width: 195px;
+  }
+  .left_wrapper .bundlePrice {
+    width: 130px;
+    margin: 10px auto -10px;
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 60px;
+    color: #000;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .bundlePrice sup {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .bundlePrice span {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: -0.14px;
+    left: -5px;
+    position: relative;
+  }
+  .left_wrapper .bundleDisclaimer {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 10px;
+    color: #000;
+    text-align: center;
+    opacity: 1;
+    letter-spacing: 0px;
+    position: relative;
+    width: 222px;
+    margin: 10px auto;
+  }
+  
+  .slider_2_contentBox {
+    /* background-color: red; */
+    margin-left: 50px;
+  }
+  .slider_2_contentBox h2 {
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #0047bb;
+    margin: 65px 0px 0px;
+  }
+  .slider_2_contentBox h1 {
+    font-size: 48px;
+    width: 450px;
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+    color: #0047bb;
+    margin: 20px 0px;
+  }
+  .slider_2_contentBox p {
+    width: 440px;
+      font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      color: #000000;
+  }
+  .slider_2_contentBox h3 {
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #0047bb;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+  }
+  .slider_2_contentBox h4 {
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+  }
+  .accessories_title {
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    color: #0047BB;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .accessories_content {
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 22px;
+  }
+  .slider_3_contentBox{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 162px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #66666659;
+  }
+  .iconBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconBox p {
+    font-family: "Maison Neue Medium", arial, helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    line-height: 48px;
+    display: block;
+    margin: 0;
+  }
+  .yogaLady {
+    background-image: url(../../public/centurylink/yogaLady.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    height: 700px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    padding-top: 70px;
+  }
+  .contentDiv {
+    width: 970px;
+    margin: auto;
+  }
+  .contentDiv h2 {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: #0047bb;
+    opacity: 1;
+    line-height: 46px;
+    width: 375px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .contentDiv span {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #000000;
+    opacity: 1;
+    line-height: 36px;
+  }
+  .iconsMainDiv {
+    display: flex;
+    margin-top: 210px;
+    gap: 5vw;
+  }
+  .yogaLadyiconbox p {
+    font-family: "Maison Neue Medium", arial, helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    line-height: 24px;
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .Customerserviceblade {
+    height: 500px;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 100px;
+  }
+  .selfService {
+    font-family: "Maison Neue Bold", arial, helvetica, sans-serif;
+    font-size: 42px;
+    color: #0045c1;
+  }
+  .Customerserviceblade .rating {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    color: #000000;
+    padding-top: 20px;
+  }
+  .Customerserviceblade .satisfaction {
+    font-family: "Maison Neue Bold", arial, helvetica, sans-serif;
+    font-size: 24px;
+    color: #0045c1;
+  }
+  .Customerserviceblade .Disclaimer {
+    font-family: "Maison Neue Book", arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 10px;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .starimageweb img {
+    padding: 30px 0px;
+  }
+  .getSpeed {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .getSpeed .contentWrapper {
+    width: 520px;
+    height: 475px;
+    float: right;
+    position: relative;
+  }
+  .getSpeed .contentWrapper {
+    margin-left: 80px;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .getSpeed .slider img{
+  width: 100px;
+  height: 50px;
+  } */
+  .contentWrapper .htwo {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: #0047bb;
+    opacity: 1;
+    line-height: 46px;
+    width: 355px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .contentWrapper p {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #000000;
+    opacity: 1;
+    line-height: 36px;
+  }
+  .contentWrapper .speedIcons p {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    line-height: 19px;
+    width: 122px;
+    margin: 0 auto;
+  }
+  .contentWrapper .speedIcons img {
+    display: block;
+    margin: auto;
+    width: 92px;
+    height: 57px;
+  }
+  .contentWrapper .speediconswrapper {
+    display: flex;
+    margin: 50px auto;
+    width: 300px;
+    justify-content: space-between;
+  }
+  .packageprice_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .disclaimer {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    line-height: 12px;
+    display: block;
+    margin: 50px auto 0;
+    width: 350px;
+  }
+  .packageprice_1 {
+    width: 152px;
+    height: 101px;
+    background: #0047bb 0% 0% no-repeat padding-box;
+    float: left;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+  }
+  .packageprice_1 span {
+    font-family: Helvetica Bold, arial, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    letter-spacing: -0.41px;
+    color: #fff;
+    opacity: 1;
+    line-height: 50px;
+    display: block;
+    width: 80px;
+    margin: 15px 0 0 14px;
+  }
+  .Premium_WiFi {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 60px 0px;
+  }
+  .wifiheader {
+    text-align: center;
+    font-family: "Maison Neue Bold", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #0045c1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .Premium_WiFi p {
+    text-align: center;
+    font-family: "Maison Neue Light", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #000;
+    margin-top: 20px;
+  }
+  .check_img {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .image_warp {
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+  }
+  .checkmark {
+    text-align: center;
+  }
+  .checkmark h3 {
+    color: #0045c1;
+    font-family: "Maison Neue Bold", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+  }
+  .checkmark p {
+    color: #000;
+    font-family: "Maison Neue Book", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .limited_avail {
+    text-align: center;
+    color: #000;
+    font-family: "Maison Neue Book", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 18px;
+  }
+  .banner {
+    background-image: url(../../public/centurylink/Refer-Earn-Blade.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    height: 485px;
+    position: relative;
+    display: block;
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  .high_speedContent {
+    width: 600px;
+  }
+  .high_speedContent p {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #000000;
+    opacity: 1;
+    line-height: 36px;
+    width: 500px;
+  }
+  .htwo {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: #0047bb;
+    opacity: 1;
+    line-height: 46px;
+    /* width: 355px; */
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .packages_section {
+    display: flex;
+    margin-top: 50px;
+  }
+  .package_content h2 {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: #0047bb;
+    opacity: 1;
+    margin-bottom: 15px;
+    line-height: 46px;
+    /* width: 88%; */
+  }
+  .package_content p {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    width: 54%;
+  }
+  .package_image {
+    /* width: 754px; */
+    /* left: -80px; */
+    height: 300px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .slider_image {
+    width: 1000px;
+    height: 575px;
+    position: relative;
+  }
+  .slider_image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .disclaimer_section{
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: auto;
+    margin-bottom: 50px !important;
+  }
+  .disclaimer_section h2 {
+    font-family: "Maison Neue Light", arial, helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: black;
+    opacity: 1;
+    margin-bottom: 15px !important;
+    line-height: 46px;
+    width: fit-content;
+    margin: auto;
+    /* width: 88%; */
+  }
+  /* li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.2em;
+  } */
+  .footer{
+    background: rgba(238, 238, 238, 0.5);
+    height: fit-content;
+    padding-top: 54px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .footer_img{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px !important;
+  }
+
+  .footer p{
+    font-family: "Maison Neue Book", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+  }
+  

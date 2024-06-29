@@ -1,0 +1,31 @@
+.main_div{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: auto;
+    margin: 80px 0;
+    padding: 80px 0!important;
+    background-color: #96fff5;
+    font-family: "__objectSans_1a79df", "__objectSans_Fallback_1a79df",
+    "Helvetica", "Arial", sans-serif;
+}
+.left_content{
+    width: 45%;
+    height: fit-content;
+}
+.left_content h1{
+    width: 300px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.left_content p{
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #7e7e7e;
+    margin-top: 50px;
+}
+.right_content{
+    width: 40%;
+    height: 350px;
+}
