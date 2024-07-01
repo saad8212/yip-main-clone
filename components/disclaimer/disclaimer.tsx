@@ -6,7 +6,7 @@ const Discliamer = ({provider}: any) => {
         <h2>Disclaimer</h2>
         <p>
           This is NOT an official website of {provider} but is the Official
-          Site of yourinternetprovider.com (Marketing Partner). We may send updates to the
+          Site of yourinternetprovider.us (Marketing Partner). We may send updates to the
           mobile number/email ID registered with us. The content is for
           information purposes only and does not constitute an offer to avail of
           any service. Prices mentioned are subject to change without notice and

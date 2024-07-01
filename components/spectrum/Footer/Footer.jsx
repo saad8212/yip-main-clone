@@ -31,12 +31,12 @@ function Footer() {
             separately. Furthermore, installation and other supplementary
             services may also incur additional costs.99.9% reliability based on
             Spectrum network availability; excludesoutages caused by external
-            events. See <a href="#">spectrum.com/reliability</a> for details.
+            events. See yourinternetprovider.us for details.
             Speed based on wiredconnection. Available Internet speeds may vary
             by address.SPECTRUM MOBILE services are not yet accessible in all
             locations.Spectrum Internet and Auto Pay required. Other
             restrictions apply. Other restrictions apply. Visit{" "}
-            <a href="#">spectrum.com/mobile/plans</a> for details. UNLIMITED:
+            yourinternetprovider.us for details. UNLIMITED:
             Standard rates apply after yr 1. Smartwatch doesnot qualify as a
             line.After 20GB of consumption per line, data speeds may be slowed
             down to guarantee a consistent internet experience for all
@@ -47,21 +47,21 @@ function Footer() {
             after 30GB of usage per line. To access 5G services, customers must
             have a 5G compatible phone and an active 5G service. Not all
             5G-enabled smartphones work with all 5G services.Speeds may vary.
-            Visit <a href="#">spectrum.com/mobile/5g</a> for details.If you're a
+            Visit yourinternetprovider.us for details.If you're a
             new customer and looking to add lines, or if you're an existing
             mobile customer planning to add Unlimited lines to your current
             service, then you're eligible for this offer. The Unlimited plan may
             result in reduced data speeds after 20GB of usage per line. However,
             with the Unlimited Plus plan, data speeds may be reduced only after
             30GB of usage per line. Visit
-            <a href="#">spectrum.com/mobile/plans</a> for details.
+            yourinternetprovider.us for details.
           </p>
         </OfferDetail>
         <OfferDetail text="Performance Details" para="">
           <p>
             Speed based on wired connection. Available Internet speeds may vary
             by address. Gig capable modem required for Gig speed. For a list of
-            Gig capable modems, visit <a href="#">spectrum.net/modem</a>
+            Gig capable modems, visit yourinternetprovider.us
           </p>
         </OfferDetail>
         <OfferDetail text="Restrictions apply" para="">
@@ -69,7 +69,7 @@ function Footer() {
             Service not available in all areas. To activate each line, Spectrum
             Internet and Auto Pay are mandatory, and an activation fee will be
             charged accordingly.Other restrictions apply. Visit
-            <a href="#">spectrum.com/mobile/plans </a> for details.
+            yourinternetprovider.us for details.
           </p>
         </OfferDetail>
 

@@ -32,7 +32,7 @@ const InternetService = ({ data }: any) => {
          <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/internet-providers-in-your-area"
+          content="https://www.yourinternetprovider.us/internet-providers-in-your-area"
         />
         <meta
           property="og:title"
@@ -50,7 +50,7 @@ const InternetService = ({ data }: any) => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com/internet-providers-in-your-area"
+          content="https://www.yourinternetprovider.us/internet-providers-in-your-area"
         />
         <meta
           property="twitter:title"

@@ -75,7 +75,7 @@ export default function Att() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/att"
+          content="https://www.yourinternetprovider.us/att"
         />
         <meta
           property="og:title"
@@ -87,13 +87,13 @@ export default function Att() {
         />
         <meta
           property="og:image"
-          content="https://www.yourinternetprovider.com/att/discussion.jpg"
+          content="https://www.yourinternetprovider.us/att/discussion.jpg"
         ></meta>
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com/att"
+          content="https://www.yourinternetprovider.us/att"
         />
         <meta
           property="twitter:title"
@@ -105,7 +105,7 @@ export default function Att() {
         />
         <meta
           property="twitter:image"
-          content="https://www.yourinternetprovider.com/att/discussion.jpg"
+          content="https://www.yourinternetprovider.us/att/discussion.jpg"
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />

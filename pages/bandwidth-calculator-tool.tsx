@@ -34,15 +34,15 @@ export default function BandwidthCalculator() {
               "@type": "Product",
               "name": "BandWidth Calculator Tool",
               "image": [
-                "https://www.yourinternetprovider.com/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Fyourinternetprovider-bandwidth-tool.webp&w=1920&q=75",
-                "https://www.yourinternetprovider.com/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Fyourinternetprovider-bandwidth-tool.webp&w=1920&q=75"
+                "https://www.yourinternetprovider.us/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Fyourinternetprovider-bandwidth-tool.webp&w=1920&q=75",
+                "https://www.yourinternetprovider.us/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Fyourinternetprovider-bandwidth-tool.webp&w=1920&q=75"
               ],
               "description": "Estimate of your bandwidth needs with our bandwidth calculator tool. Avoid slow internet speeds & choose the right internet plan for your needs with YourInternetProvider's free tool.",
               "mpn": "0",
-              "url":"https://www.yourinternetprovider.com/bandwidth-calculator-tool",
+              "url":"https://www.yourinternetprovider.us/bandwidth-calculator-tool",
               "brand": {
                 "@type": "Thing",
-                "name": "yourinternetprovider.com"
+                "name": "yourinternetprovider.us"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -86,7 +86,7 @@ export default function BandwidthCalculator() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/bandwidth-calculator"
+          content="https://www.yourinternetprovider.us/bandwidth-calculator"
         />
         <meta
           property="og:title"
@@ -116,7 +116,7 @@ export default function BandwidthCalculator() {
         />
         <meta
           property="twitter:image"
-          content="https://www.yourinternetprovider.com/logo.svg"
+          content="https://www.yourinternetprovider.us/logo.svg"
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />

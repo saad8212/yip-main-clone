@@ -31,7 +31,7 @@ const CableServices = ({ data }: any) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/cable-tv-providers-in-your-area"
+          content="https://www.yourinternetprovider.us/cable-tv-providers-in-your-area"
         />
         <meta
           property="og:title"
@@ -43,13 +43,13 @@ const CableServices = ({ data }: any) => {
         />
         <meta
           property="og:image"
-          content="https://www.yourinternetprovider.com/cable.png"
+          content="https://www.yourinternetprovider.us/cable.png"
         />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com/cable-tv-providers-in-your-area"
+          content="https://www.yourinternetprovider.us/cable-tv-providers-in-your-area"
         />
         <meta
           property="twitter:title"
@@ -61,7 +61,7 @@ const CableServices = ({ data }: any) => {
         />
         <meta
           property="twitter:image"
-          content="https://www.yourinternetprovider.com/cable.png"
+          content="https://www.yourinternetprovider.us/cable.png"
         />
       </Head>
       <main>

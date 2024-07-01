@@ -18,16 +18,16 @@ const Yipcalifornia = () => {
   
    <ul className={style.unorder_mobile} style={{display:width && width < 600 ? "block" : "none"}}>
     <label><span>1.</span>Extensive Provider Network: </label>
-    <li>Yourinternetprovider.com partners with top cable, internet, and phone providers in the country, giving you access to a wide range of options to choose from. </li>
+    <li>yourinternetprovider.us partners with top cable, internet, and phone providers in the country, giving you access to a wide range of options to choose from. </li>
     <label><span>2.</span>Transparent Pricing:</label>
-    <li>With Yourinternetprovider.com, you can compare prices and plans from multiple providers side-by-side, ensuring that you get the best deal possible. Plus, there are no hidden fees or surprises on your bill. </li>
+    <li>With yourinternetprovider.us, you can compare prices and plans from multiple providers side-by-side, ensuring that you get the best deal possible. Plus, there are no hidden fees or surprises on your bill. </li>
     <label><span>3.</span>Expert Customer Service: </label>
-    <li>Yourinternetprovider.com has a team of dedicated customer service representatives who are available to answer your questions and help you choose the right package for your needs.
+    <li>yourinternetprovider.us has a team of dedicated customer service representatives who are available to answer your questions and help you choose the right package for your needs.
 </li>
 <label><span>4.</span>Easy-to-Use Platform: </label>
-<li>The Yourinternetprovider.com website is user-friendly and easy to navigate, allowing you to quickly and easily compare plans, prices, and features. </li>
+<li>The yourinternetprovider.us website is user-friendly and easy to navigate, allowing you to quickly and easily compare plans, prices, and features. </li>
 <label><span>5.</span>Satisfaction Guarantee: </label>
-<li>Yourinternetprovider.com offers a satisfaction guarantee, so you can be confident that you will be satisfied with your chosen provider and plan. Overall, Yourinternetprovider.com provides a hassle-free and convenient way to find the best cable, internet, and phone deals in your area.
+<li>yourinternetprovider.us offers a satisfaction guarantee, so you can be confident that you will be satisfied with your chosen provider and plan. Overall, yourinternetprovider.us provides a hassle-free and convenient way to find the best cable, internet, and phone deals in your area.
 </li>
    </ul>
   

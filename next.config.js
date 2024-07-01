@@ -17,7 +17,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.yourinternetprovider.com",
+        hostname: "www.yourinternetprovider.us",
       },
     ],
   },

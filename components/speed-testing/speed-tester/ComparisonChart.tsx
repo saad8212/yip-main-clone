@@ -423,10 +423,10 @@ const InternetPoints = () => {
       <div className={style.main_text_inner}>
         <h4>Why Place Your Trust in Y/IP? </h4>
         <p>
-          Yourinternetprovider.com is a trusted and reliable platform for
+          yourinternetprovider.us is a trusted and reliable platform for
           finding and comparing cable, internet, and phone services from top
           providers in your area. Here are some reasons why you should place
-          your trust in Yourinternetprovider.com:
+          your trust in yourinternetprovider.us:
         </p>
 
         <ul>
@@ -448,14 +448,14 @@ const InternetPoints = () => {
             help you choose the perfect package to fit your needs.
           </li>
           <li>
-            <span>Easy-to-Use Platform:</span> The Yourinternetprovider.com
+            <span>Easy-to-Use Platform:</span> The yourinternetprovider.us
             website is intuitive and user-friendly, letting you quickly and
             easily compare plans, prices, and features.
           </li>
           <li>
             <span>Satisfaction Guarantee:</span> We stand behind our service and
             offer a satisfaction guarantee, so you can have confidence in your
-            chosen provider and plan. In summary, Yourinternetprovider.com
+            chosen provider and plan. In summary, yourinternetprovider.us
             provides a seamless and convenient way to find the best cable,
             internet, and phone deals in your area.
           </li>

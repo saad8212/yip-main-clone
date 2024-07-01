@@ -167,11 +167,11 @@ export const TrustPoints = () => {
       <div className={styles.main_text_inner}>
         <h4>Why Choose Y/IP?</h4>
         <p>
-          Yourinternetprovider.com is the go-to destination for finding and
+          yourinternetprovider.us is the go-to destination for finding and
           comparing cable, internet, and phone services from the top providers
           in your area.
         </p>
-        <p>Here's why you can trust Yourinternetprovider.com:</p>
+        <p>Here's why you can trust yourinternetprovider.us:</p>
         <ul>
           <li>
             <span>Extensive Provider Network:</span>
@@ -191,14 +191,14 @@ export const TrustPoints = () => {
             help you choose the perfect package to fit your needs.
           </li>
           <li>
-            <span>Easy-to-Use Platform:</span> The Yourinternetprovider.com
+            <span>Easy-to-Use Platform:</span> The yourinternetprovider.us
             website is intuitive and user-friendly, letting you quickly and
             easily compare plans, prices, and features.
           </li>
           <li>
             <span>Satisfaction Guarantee:</span> We stand behind our service and
             offer a satisfaction guarantee, so you can have confidence in your
-            chosen provider and plan. In summary, Yourinternetprovider.com
+            chosen provider and plan. In summary, yourinternetprovider.us
             provides a seamless and convenient way to find the best cable,
             internet, and phone deals in your area.
           </li>

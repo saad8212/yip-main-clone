@@ -11,7 +11,7 @@ const YipDifferent = () => {
       text: (
         <p>
           {" "}
-          The first step is to enter your zip code on Yourinternetprovider.com
+          The first step is to enter your zip code on yourinternetprovider.us
           to see the list of ISPs available in your area. Once you enter your
           zip code, you'll see all the ISPs in your area.
         </p>

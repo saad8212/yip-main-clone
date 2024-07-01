@@ -94,15 +94,15 @@ Contact your ISP if the issue persists."
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.yourinternetprovider.com/speed-testing-tool"
+    "@id": "https://www.yourinternetprovider.us/speed-testing-tool"
   },
-  "headline": "Internet Speed Test — Check Your online Speed - Yourinternetprovider.com",
+  "headline": "Internet Speed Test — Check Your online Speed - yourinternetprovider.us",
   "description": "Test your internet speed with our accurate speed test tool. Get insights into your connection's performance and optimize your online experience. Try it now!",
-  "image": "https://www.yourinternetprovider.com/speed-testing-tool.png",
+  "image": "https://www.yourinternetprovider.us/speed-testing-tool.png",
   "author": {
     "@type": "Person",
     "name": "Muhammad Sheroz",
-    "url": "https://www.yourinternetprovider.com/"
+    "url": "https://www.yourinternetprovider.us/"
   },
   "publisher": {
     "@type": "Organization",
@@ -137,7 +137,7 @@ Contact your ISP if the issue persists."
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/speed-testing-tool"
+          content="https://www.yourinternetprovider.us/speed-testing-tool"
         />
         <meta
           property="og:title"
@@ -149,13 +149,13 @@ Contact your ISP if the issue persists."
         />
         <meta
           property="og:image"
-          content="https://www.yourinternetprovider.com/speed-testing-tool.png"
+          content="https://www.yourinternetprovider.us/speed-testing-tool.png"
         />
         {/* Twitter  */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com/speed-testing-tool"
+          content="https://www.yourinternetprovider.us/speed-testing-tool"
         />
         <meta
           property="twitter:title"
@@ -167,7 +167,7 @@ Contact your ISP if the issue persists."
         />
         <meta
           property="twitter:image"
-          content="https://www.yourinternetprovider.com/speed-testing-tool.png"
+          content="https://www.yourinternetprovider.us/speed-testing-tool.png"
         />
       </Head>
       <main>

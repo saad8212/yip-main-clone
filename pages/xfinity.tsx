@@ -78,7 +78,7 @@ export default function Xfinity() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/xfinity"
+          content="https://www.yourinternetprovider.us/xfinity"
         />
         <meta
           property="og:title"
@@ -90,13 +90,13 @@ export default function Xfinity() {
         />
         <meta
           property="og:image"
-          content="https://www.yourinternetprovider.com/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Ffrontend%2Flogo.WebP&w=1920&q=75"
+          content="https://www.yourinternetprovider.us/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Ffrontend%2Flogo.WebP&w=1920&q=75"
         />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com/xfinity"
+          content="https://www.yourinternetprovider.us/xfinity"
         />
         <meta
           property="twitter:title"
@@ -108,7 +108,7 @@ export default function Xfinity() {
         />
         <meta
           property="twitter:image"
-          content="https://www.yourinternetprovider.com/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Ffrontend%2Flogo.WebP&w=1920&q=75"
+          content="https://www.yourinternetprovider.us/_next/image?url=https%3A%2F%2Fnext.thepic.store%2Ffrontend%2Flogo.WebP&w=1920&q=75"
         />
       </Head>
       <main className="xfinity_wrapper">

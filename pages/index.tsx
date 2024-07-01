@@ -78,22 +78,22 @@ const Home = ({ data }: any) => {
       >
         {`{"@context":"https://schema.org",
           "@graph":[{"@type":"WebSite",
-          "@id":"https://www.yourinternetprovider.com/#website",
-            "url":"https://www.yourinternetprovider.com/",
-            "name":"YourInternetProvider.com",
+          "@id":"https://www.yourinternetprovider.us/#website",
+            "url":"https://www.yourinternetprovider.us/",
+            "name":"yourinternetprovider.us",
             "inLanguage":"en-US",
             "description":"Internet Provider Comparisons, Speed and Streaming Guides, and FAQ",
             "potentialAction":[{"@type":"SearchAction",
-            "target":"https://www.yourinternetprovider.com/?s={search_term_string}",
+            "target":"https://www.yourinternetprovider.us/?s={search_term_string}",
             "query-input":"required name=search_term_string"}]},
             {"@type":"ImageObject",
             "@id":"https://next.thepic.store/frontend/logo.svg/#primaryimage",
             "inLanguage":"en-US",
             "url":"https://next.thepic.store/frontend/logo.svg"},
-            {"@type":"WebPage","@id":"https://www.yourinternetprovider.com/#webpage",
-            "url":"https://www.yourinternetprovider.com/",
+            {"@type":"WebPage","@id":"https://www.yourinternetprovider.us/#webpage",
+            "url":"https://www.yourinternetprovider.us/",
             "name":"Helping you find high speed quality internet service providers",
-            "isPartOf":{"@id":"https://www.yourinternetprovider.com/#webpage"},
+            "isPartOf":{"@id":"https://www.yourinternetprovider.us/#webpage"},
             "inLanguage":"en-US",
             "primaryImageOfPage":
             {"@id":"https://next.thepic.store/frontend/logo.svg"},
@@ -101,7 +101,7 @@ const Home = ({ data }: any) => {
             "dateModified":"2023-02-22T16:56:31+00:00",
             "description":"Compare internet service providers in your area. Find speeds, prices, customer satisfaction scores, and reviews for ISPs near you.",
             "potentialAction":[{"@type":"ReadAction",
-            "target":["https://www.yourinternetprovider.com/"]}]}]}
+            "target":["https://www.yourinternetprovider.us/"]}]}]}
 
           `}
       </Script>
@@ -109,8 +109,8 @@ const Home = ({ data }: any) => {
         {`{
             "@context": "http://schema.org",
             "@type": "WebSite",
-            "url": "https://www.yourinternetprovider.com/",
-            "name": "Yourinternetprovider.com",
+            "url": "https://www.yourinternetprovider.us/",
+            "name": "yourinternetprovider.us",
             "description": "Looking for the best internet service providers in your area? Compare top cable, phone, Landline and wireless providers to find the right fit for your needs.",
             "about": "Internet Providers",
             "dateModified": "2023-03-05T15:15:56+00:00",
@@ -121,7 +121,7 @@ const Home = ({ data }: any) => {
             },
             "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://www.yourinternetprovider.com?zip={zip}",
+            "target": "https://www.yourinternetprovider.us?zip={zip}",
             "query-input": "name=zip"
             }
             }
@@ -133,7 +133,7 @@ const Home = ({ data }: any) => {
             "@type": "Organization",
             "name": "YourInternetProvider",
             "alternateName": "Internet Service Provider",
-            "url": "https://www.yourinternetprovider.com/",
+            "url": "https://www.yourinternetprovider.us/",
             "logo": "https://next.thepic.store/frontend/logo.svg",
             "contactPoint": {
               "@type": "ContactPoint",
@@ -143,7 +143,7 @@ const Home = ({ data }: any) => {
               "areaServed": "US",
               "availableLanguage": "en-US"
             },
-            "sameAs": "https://www.yourinternetprovider.com/"
+            "sameAs": "https://www.yourinternetprovider.us/"
           }
           `}
       </Script>
@@ -181,7 +181,7 @@ const Home = ({ data }: any) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.yourinternetprovider.com/"
+          content="https://www.yourinternetprovider.us/"
         />
         <meta
           property="og:title"
@@ -199,7 +199,7 @@ const Home = ({ data }: any) => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.yourinternetprovider.com"
+          content="https://www.yourinternetprovider.us"
         />
         <meta
           property="twitter:title"
@@ -220,10 +220,10 @@ const Home = ({ data }: any) => {
         />
         <link
           rel="alternate"
-          href="https://www.yourinternetprovider.com/"
+          href="https://www.yourinternetprovider.us/"
           hrefLang="en-us"
         />
-        <link href="https://www.yourinternetprovider.com/" rel="canonical" />
+        <link href="https://www.yourinternetprovider.us/" rel="canonical" />
         <link rel="icon" href="/favicon.ico" />
          
        
@@ -236,7 +236,7 @@ const Home = ({ data }: any) => {
         <IntroductionService />
         <InternetProviders />
         <ProviderFeatureBox /> 
-        <LatestBlogs blogs={data}/> 
+        {/* <LatestBlogs blogs={data}/>  */}
         <QnA data={dataProvider} />
        
       </main>
@@ -245,19 +245,19 @@ const Home = ({ data }: any) => {
   );
 };
 
-export async function getStaticProps() {
-  const response = (await getBlogs(1, 5)) as [];
-  if (response.length < 1) {
-    return {
-      props: {
-        data: [],
-      },
-    };
-  }
-  return {
-    props: {
-      data: response,
-    },
-  };
-}
+// export async function getStaticProps() {
+//   const response = (await getBlogs(1, 5)) as [];
+//   if (response.length < 1) {
+//     return {
+//       props: {
+//         data: [],
+//       },
+//     };
+//   }
+//   return {
+//     props: {
+//       data: response,
+//     },
+//   };
+// }
 export default Home;

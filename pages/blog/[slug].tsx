@@ -30,7 +30,7 @@ const Detail = ({ data }: any) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`https://www.yourinternetprovider.com/blog/${data?.blog.slug}`}
+          content={`https://www.yourinternetprovider.us/blog/${data?.blog.slug}`}
         />
         <meta property="og:title" content={data?.blog.title} />
         <meta property="og:description" content={data?.blog.excerpt} />
@@ -46,7 +46,7 @@ const Detail = ({ data }: any) => {
 
         <link
           rel="alternate"
-          href={`https://www.yourinternetprovider.com/blog/${data?.blog.slug}`}
+          href={`https://www.yourinternetprovider.us/blog/${data?.blog.slug}`}
           hrefLang="en-us"
         />
       </Head>

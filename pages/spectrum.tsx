@@ -8,6 +8,7 @@ import Area from "../components/spectrum/Area/Area";
 import Section4 from "../components/spectrum/Section4/Section4";
 import Footer from "../components/spectrum/Footer/Footer";
 import Popup from "../components/global/popup/Popup";
+import Discliamer from "../components/disclaimer/disclaimer";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         <Section2 number="+1(888)-636-4030"/>
         <Area/>
         <Section4/>
+        <Discliamer/>
         <Footer />
         <Popup
           color="#003057"
