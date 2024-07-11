@@ -225,18 +225,7 @@ const Header = () => {
                               Blogs
                             </a>
                           </Link>
-                          <NavLinkDropdown
-                            label="Provider"
-                            links={navLinks}
-                            onAnimationStart={() => {
-                              setIsWrapperOpen(true);
-                              setIsHide(true);
-                            }}
-                            onAnimationEnd={() => {
-                              setIsWrapperOpen(false);
-                              setIsHide(false);
-                            }}
-                          />
+                          
                           <NavLinkDropdown
                             label="Tools"
                             links={tools}
@@ -273,12 +262,6 @@ const Header = () => {
                             onAnimationEnd={() => setIsWrapperOpen(false)}
                           />
 
-                          <NavLinkDropdown
-                            label="Provider"
-                            links={navLinks}
-                            onAnimationStart={() => setIsWrapperOpen(true)}
-                            onAnimationEnd={() => setIsWrapperOpen(false)}
-                          />
                          
                           <NavLinkDropdown
                             label="Tools"
