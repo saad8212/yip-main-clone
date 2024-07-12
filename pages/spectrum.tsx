@@ -34,9 +34,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.spectrum_wrapper}>
-        <Header number="+1 (877)-679-9970"/>
-        <Section number="+1 (877)-679-9970"/>
-        <Section2 number="+1 (877)-679-9970"/>
+        <Header number="+1(888)-532-2024"/>
+        <Section number="+1(888)-532-2024"/>
+        <Section2 number="+1(888)-532-2024"/>
         <Area/>
         <Section4/>
         <Discliamer/>
@@ -44,7 +44,7 @@ export default function Home() {
         <Popup
           color="#003057"
           url="/spectrum/logo2.png"
-          number="1(877)-679-9970"
+          number="+1(888)-532-2024"
         />
       </main>
     </>
