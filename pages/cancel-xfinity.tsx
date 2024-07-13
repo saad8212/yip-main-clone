@@ -112,10 +112,10 @@ export default function Xfinity() {
         />
       </Head>
       <main className="xfinity_wrapper">
-        <Header number="+1(888)-633-4504" />
+        <Header number="+1(888)-581-3893" />
         <Banner />
-        <XfinityBox number="+1(888)-633-4504" />
-        <XfinityWrapper  number="+1(888)-633-4504"/>
+        <XfinityBox number="+1(888)-581-3893" />
+        <XfinityWrapper  number="+1(888)-581-3893"/>
         <XfinityWrraper2 />
         <XfinityFAQS />
         <Discliamer provider="Xfinity" />
@@ -123,7 +123,7 @@ export default function Xfinity() {
           color="linear-gradient(90deg,#ff7f7f 28%,#a80909)"
           url="/xfinity/xfinity-authorized-dealer-logo.png"
           logoWidth="200px"
-          number="+1(888)-633-4504"
+          number="+1(888)-581-3893"
           text="Call to Cancel Xfinity Comcast Now"
         />
       </main>
