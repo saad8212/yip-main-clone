@@ -21,7 +21,7 @@ const Verizon = () => {
         color="linear-gradient(270deg, rgba(7, 2, 45, 1) 0%, rgba(42, 56, 96, 1) 52%, rgba(0, 212, 255, 1) 100%)"
         url="/verizon/logo.png"
         logoWidth="230px !important"
-        number="+1(855)-316-1700"
+        number="+1(888)-8941-238"
       />
       <Footer />
     </div>
