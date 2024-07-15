@@ -44,7 +44,7 @@ export default function Home() {
         <Popup
           color="#003057"
           url="/spectrum/logo2.png"
-          number="+1(833)-9542-613"
+          number="1(833)-9542-613"
         />
       </main>
     </>
