@@ -34,9 +34,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.spectrum_wrapper}>
-        <Header number="1(855)-517-5070" />
-        <Section number="1(855)-517-5070" />
-        <Section2 number="1(855)-517-5070" />
+        <Header number="1(844) 224-8338" />
+        <Section number="1(844) 224-8338" />
+        <Section2 number="1(844) 224-8338" />
         <Area />
         <Section4 />
         <Discliamer provider="spectrum" />
@@ -45,7 +45,7 @@ export default function Home() {
         <Popup
           color="#003057"
           url="/spectrum/logo2.png"
-          number="1(855)-517-5070"
+          number="1(844) 224-8338"
           text = "Call to Cancel Spectrum"
         />
       </main>
