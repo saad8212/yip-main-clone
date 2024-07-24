@@ -217,7 +217,7 @@ const Header = () => {
                             </a>
                           </Link>
 
-                          <Link href="/blog" legacyBehavior>
+                          {/* <Link href="/blog" legacyBehavior>
                             <a
                               className={styles.link + " decoration-none"}
                               onClick={() => setIsHide(false)}
@@ -225,7 +225,7 @@ const Header = () => {
                               Blogs
                             </a>
                           </Link>
-                          
+                           */}
                           <NavLinkDropdown
                             label="Tools"
                             links={tools}
@@ -269,11 +269,11 @@ const Header = () => {
                             onAnimationStart={() => setIsWrapperOpen(true)}
                             onAnimationEnd={() => setIsWrapperOpen(false)}
                           />
-                          <Link href="/blog" legacyBehavior>
+                          {/* <Link href="/blog" legacyBehavior>
                             <a className={styles.link + " decoration-none"}>
                               Blog
                             </a>
-                          </Link>
+                          </Link> */}
                           <Link href="tel:+18886364030" legacyBehavior>
                             <a>
                               <button className={styles.plan_item}>
