@@ -261,6 +261,18 @@ const Header = () => {
                             onAnimationStart={() => setIsWrapperOpen(true)}
                             onAnimationEnd={() => setIsWrapperOpen(false)}
                           />
+                            <NavLinkDropdown
+                            label="Provider"
+                            links={navLinks}
+                            onAnimationStart={() => {
+                              setIsWrapperOpen(true);
+                              setIsHide(true);
+                            }}
+                            onAnimationEnd={() => {
+                              setIsWrapperOpen(false);
+                              setIsHide(false);
+                            }}
+                          />
 
                          
                           <NavLinkDropdown
