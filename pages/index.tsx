@@ -234,7 +234,7 @@ const Home = ({ data }: any) => {
         <Providers content={content.plans} />
         <YipDifferent />
         <IntroductionService />
-        <InternetProviders />
+        {/* <InternetProviders /> */}
         <ProviderFeatureBox /> 
         {/* <LatestBlogs blogs={data}/>  */}
         <QnA data={dataProvider} />

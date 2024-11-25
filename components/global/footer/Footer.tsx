@@ -32,7 +32,7 @@ if (isAllow)
         <div className={styles.footer_row}>
           <div className={`${styles.footer_col} ${styles.footer_linkrow}`}>
             <div className={styles.footer_link}>
-              <h4>All Providers</h4>
+              {/* <h4>All Providers</h4>
               <div className={styles.footer_linkInner}>
                 <Linkanimate url="/spectrum" text="Spectrum" />
                 <Linkanimate url="/xfinity" text="Xfinity" />
@@ -41,7 +41,7 @@ if (isAllow)
                 <Linkanimate url="/" text="Century Link" />
                 <Linkanimate url="/verizon" text="Verizon" />
                 <Linkanimate url="/" text="Mediacom" />
-              </div>
+              </div> */}
             </div>
             <div className={styles.footer_link}>
               <h4>Pages</h4>
