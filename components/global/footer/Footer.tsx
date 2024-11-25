@@ -69,11 +69,11 @@ if (isAllow)
                         mobile: [4.042,4.042],
                       }} 
                     />
-                    <p id = "footer-call-to-action">+1(800) 962-3418</p>
+                    <p id = "footer-call-to-action">+1(832) 858-0808</p>
                     
                   </a>
                 </Link>
-                <Link href="mailto:sales@leilanitech.com" legacyBehavior>
+                <Link href="mailto:Mandkglobalinvestsllc@gmail.com" legacyBehavior>
                   <a>
                     <Img 
                       src={`/images/mail.png`} 
@@ -83,11 +83,11 @@ if (isAllow)
                         mobile: [5.042,5.042],
                       }} 
                     />
-                    <p>sales@leilanitech.com</p>
+                    <p>Mandkglobalinvestsllc@gmail.com</p>
                   </a>
                 </Link>
                 <a
-                  href="http://maps.google.com/?q=740 2601 Bellefontaine APT B112, Houston, TX 77025"
+                  href="http://maps.google.com/?q=740 12414 Ashford Hollow dr,  Sugar Land Tx 77478"
                   target="_"
                 >
                   
@@ -100,8 +100,8 @@ if (isAllow)
                     }} 
                   />
                   <p>
-                  2601 Bellefontaine APT B112,
-                    <br /> Houston, TX 77025
+                  12414 Ashford Hollow dr 
+                    <br />  Sugar Land Tx 77478
                   </p>
                 </a>
                 <div className={styles.footer__textarea}>
@@ -118,7 +118,7 @@ if (isAllow)
           <div className={styles.footer_serviceCol}>
             <p>Leilani tech, all rights reserved</p>
           </div>
-          <div className={styles.footer_serviceCol}>
+          {/* <div className={styles.footer_serviceCol}>
             <div className={styles.footerCol_inner}>
               <Link href="/privacy-policy" legacyBehavior>
                 <a>Privacy Policy</a>
@@ -169,7 +169,7 @@ if (isAllow)
                 </div>
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
        
       </footer>
