@@ -50,8 +50,8 @@ if (isAllow)
                 <Linkanimate url="/blog" text="Blog" />
                 <Linkanimate url="/privacy-policy" text="Privacy Policy" />
                 <Linkanimate url="/affordable-connectivity-program" text="ACP" />
-                <Linkanimate url="/cancel-xfinity" text="Cancel Account" value="Cancel Xfinity"/>
-                <Linkanimate url="/cancel-spectrum" text="Cancel Package" value="Cancel Spectrum"/>
+                {/* <Linkanimate url="/cancel-xfinity" text="Cancel Account" value="Cancel Xfinity"/> */}
+                {/* <Linkanimate url="/cancel-spectrum" text="Cancel Package" value="Cancel Spectrum"/> */}
               </div>
             </div>
           </div>
